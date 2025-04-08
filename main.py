@@ -16,7 +16,7 @@ class Task(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the DIEGO API!"}
+    return {"message": "Welcome to the JUAN API!"}
 
 @app.get("/tasks", response_model=List[Task])
 async def get_tasks():
